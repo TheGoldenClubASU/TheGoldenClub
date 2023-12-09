@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+ <link rel="stylesheet" href="style.css"
+<title>Web Design |TheGoldenASU</title>
+</head>
+<body>
+<div class="header_bar">Free Shipping on Orders Over $50</div>
+<nav class="section_container nav_container">
+<a href="#" class="nav_logo">TheGoldenASU</a>
+<ul class="nav_links">
+    <li class="link"><a href="#">HOME</a></li>
+    <li class="link"><a href="#">SHOP ALL</a></li>
+    <li class="link"><a href="#">TEES</a></li>
+    <li class="link"><a href="#">HOODIES</a></li>
+    <li class="link"><a href="#">SETS</a></li>
+    <li class="link"><a href="#">FAQ</a></li>
+    <li class="link"><a href="#">CONTACT</a></li>
+    </ul>
+    <div class="nav_icons">
+        <span><i class="ri_shield-user-line"></i></span>
+        <span><i class="ri-search-line"></i></span>
+        <span><i class="ri-shopping-bag-2-line"></i></span>
+    </div>
+</nav>
+
+<header>
+    <div class="section_container header_container">
+        <div class="header_content">
+            <p>EXTRA 55% OFF IN SPRING SALE</p>
+            <h1>Discover & Shop<br>The Trend</h1>
+            <button class="btn">SHOP NOW</button>
+        </div>
+        <div class="header_image">
+            <img src="assets/header.png" alt="header" />
+        </div>
+    </div>
+</header>
+
+<section class="section_container collection_container">
+    <img src="assets/collection.jpg" alt="collection"> 
+    <div class="collection_content">
+        <h2 class="section_title">New Collection</h2>
+        <p>#35 ITEMS</p>
+        <h4>Availabe in Store</h4>
+        <button class="btn">SHOP NOW</button>
+    </div>
+</section>
+
+<section class="section_conatiner sale_container">
+    <h2 class="section_title">On Sale</h2>
+    <div class="sale_grid">
+    <div class="sale_card">
+    <img src="assets/sale-1.jpg" alt="sale">
+    <div class="sale_content">
+        <p class="sale_subtitle">OUTERWEAR</p>
+        <h4 class="sale_title">Sale <span>40%</span> off</h4>
+        <p class="sale_subtitle">- DON'T MISS -</p>
+        <button class="btn sale_btn">SHOP NOW</button>
+        </div>
+    </div>
+    <div class="sale_card">
+        <img src="assets/sale-2.jpg" alt="sale">
+        <div class="sale_content">
+            <p class="sale_subtitle">T-SHIRT</p>
+            <h4 class="sale_title">Sale <span>25%</span> off</h4>
+            <p class="sale_subtitle">- DON'T MISS -</p>
+            <button class="btn sale_btn">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="sale_card">
+            <img src="assets/sale-3.jpg" alt="sale">
+            <div class="sale_content">
+                <p class="sale_subtitle">JACKETS</p>
+                <h4 class="sale_title">Sale <span>20%</span> off</h4>
+                <p class="sale_subtitle">- DON'T MISS -</p>
+                <button class="btn sale_btn">SHOP NOW</button>
+                </div>
+            </div>
+</div>
+    </section>
+</body>
+</html> 
